@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@500&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@500&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@600&display=swap');
+
+.allcart {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 71px;
+    box-sizing: border-box;
+}
+
+.textfor {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.vbb {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cnn {
+    text-align: center;
+    margin-top: 67px;
+}

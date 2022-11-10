@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@500&display=swap');
+
+
+.card {
+    border-radius: 12px;
+    /* min-height: 80vh; */
+    box-sizing: border-box;
+
+    margin: 0;
+    position: relative;
+    /* -webkit-box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.36); */
+
+
+    width: 300.4;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.wrap {
+    height: 330px;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.productname {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.price {
+    padding: 5PX;
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.broo {
+    text-decoration: none;
+    color: black;
+    font-family: none;
+}
+
+.btnc {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.dif {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.imageproduct {
+    height: 300.4px;
+
+
+    width: 300.4px;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+
+
+}
+
+.abcd {
+
+    background-color: rgb(53, 146, 222);
+    position: absolute;
+    height: 290px;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+    opacity: 0.1;
+    top: 30px;
+    left: 10px;
+    opacity: 1;
+    width: 290px;
+}
+
+.imageproduct:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.imageproduct:hover+.abcd {
+    transform: scale(1);
+    opacity: 0.1;
+}
+
+
+
+.starv {
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    position: absolute;
+    right: 5px;
+    z-index: 2;
+}
+
+
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.first {
+    padding: 0;
+    display: flex;
+    height: 50%;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #9b70e0;
+    transition: all 0.1s ease-in-out;
+    box-sizing: border-box;
+    padding: 11px 34px 11px 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    border: black;
+
+    color: white;
+
+}

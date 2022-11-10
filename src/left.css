@@ -1,0 +1,147 @@
+.left {
+
+    height: 379px;
+    width: 355px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.texttt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ardr {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -18px;
+    left: 217px;
+}
+
+.imaagee:hover+.overlay {
+    display: block;
+}
+
+.overlay {
+    display: none;
+    height: 123px;
+    width: 250px;
+    font-size: 14px;
+    background-color: #808080;
+    /* background-color: #585858; */
+    color: white;
+    position: absolute;
+    top: 45px;
+    left: -150px;
+
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 16px 16px 16px;
+}
+
+.imaagee {
+    width: 12px;
+    height: 12px;
+}
+
+.manage {
+    margin-top: 20px;
+    display: flex;
+
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summry {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 33px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.ppp {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+}
+
+.subtotalwrap {
+    position: relative;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+
+}
+
+.subtotal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 28px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.subtotalv {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 28px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.both {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding: 0px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    padding-top: 19px;
+    border-top: 1px solid rgba(0, 0, 0, 0.084);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.084);
+
+    padding-bottom: 19px;
+    box-sizing: border-box;
+
+}
+
+.checkbtn {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 339px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+    padding: 18px 24px 18px 24px;
+}

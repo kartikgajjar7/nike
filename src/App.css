@@ -1,0 +1,25 @@
+.products {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100vw;
+    gap: 40px;
+    max-width: 100%;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: 700;
+
+    padding-left: 95px;
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

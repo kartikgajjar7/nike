@@ -1,0 +1,24 @@
+.right {
+    /* background-color: antiquewhite; */
+    width: auto;
+    min-height: 419px;
+    width: 728px;
+}
+
+.bag {
+    display: flex;
+    font-family: Helvetica;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.bagV {
+    display: flex;
+    font-family: Helvetica;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 0;
+}
